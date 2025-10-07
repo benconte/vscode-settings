@@ -1,0 +1,164 @@
+{
+  "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.fontFamily": "'Cascadia Code'",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.sideBar.location": "right",
+  "search.showLineNumbers": true,
+  "svelte.enable-ts-plugin": true,
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "code-runner.runInTerminal": true,
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "editor.linkedEditing": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "redhat.telemetry.enabled": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "console-ninja.warnOnNoToolsDetected": false,
+  "tabnine.experimentalAutoImports": true,
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-windows": "C:\\Users\\user\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.minikube-path-windows": "C:\\Users\\user\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+    "vscode-kubernetes.kubectl-path-linux": "/home/don-jefe/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path-linux": "/home/don-jefe/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.helm-path-linux": "/home/don-jefe/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "workbench.colorTheme": "Monokai Classic",
+  "workbench.iconTheme": "material-icon-theme",
+  "githubPullRequests.pullBranch": "never",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "mssql.enableRichExperiences": true,
+  "database-client.autoSync": true,
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
+  "vim.highlightedyank.duration": 200,
+  "vim.foldfix": true,
+  "vim.handleKeys": {
+    "<C-z>": false
+  },
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<space>", "f", "m"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["<space>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<space>", "x"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["<space>", "b"],
+      "commands": ["workbench.action.files.newUntitledFile"]
+    },
+    {
+      "before": ["<space>", "s"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<space>", "o"],
+      "commands": ["workbench.explorer.fileView.focus"]
+    },
+    {
+      "before": ["<tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<C-c>"],
+      "commands": [
+        "editor.action.selectAll",
+        "editor.action.clipboardCopyAction"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<leader>", "y"],
+      "commands": ["editor.action.clipboardCopyAction"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "y", "y"],
+      "commands": ["editor.action.clipboardCopyAction"]
+    },
+    {
+      "before": ["y", "y"],
+      "after": ["y", "y"]
+    },
+    {
+      "before": [";"],
+      "after": [":"]
+    },
+    {
+      "before": [":"],
+      "after": [";"]
+    }
+  ],
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "editor.minimap.maxColumn": 100,
+  "vsicons.dontShowNewVersionMessage": true,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/tmp/postman-collections-post-response.instructions.md": true,
+    "/tmp/postman-collections-pre-request.instructions.md": true,
+    "/tmp/postman-folder-post-response.instructions.md": true,
+    "/tmp/postman-folder-pre-request.instructions.md": true,
+    "/tmp/postman-http-request-post-response.instructions.md": true,
+    "/tmp/postman-http-request-pre-request.instructions.md": true
+  },
+  "java.compile.nullAnalysis.nonnull": [],
+  "java.compile.nullAnalysis.nullable": [],
+  "java.compile.nullAnalysis.nonnullbydefault": [],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+
